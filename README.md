@@ -8,3 +8,8 @@ por várias vezes se desconecta da rede wifi a qual está logada.</p>
 <h3>Instalar ifconfig</h3>
 <p>apt-get install net-tools( lembre de estar logado como root no terminal == comando == sudo -s)</p>
 <p>Após efetuar o comando acima o ifconfig estara funcionando.</p>
+<p>ifconfig</p>
+<p>Com o comando acima serão listadas as placa de rede que estão rodando no seu sistema.</p>
+<p>O ifconfig tem o atributo down que derruba uma placa de rede</p>
+<p>ifconfig nome_placa down</p>
+<p>Esse comando mata(deruba) a placa de rede selecionada, claro que após reiniciar ela voltara a funcionar.</p>
