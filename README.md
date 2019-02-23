@@ -1,0 +1,1 @@
+# remover_placa_rede_ubuntu
