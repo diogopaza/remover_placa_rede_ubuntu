@@ -13,3 +13,7 @@ por várias vezes se desconecta da rede wifi a qual está logada.</p>
 <p>O ifconfig tem o atributo down que derruba uma placa de rede</p>
 <p>ifconfig nome_placa down</p>
 <p>Esse comando mata(deruba) a placa de rede selecionada, claro que após reiniciar ela voltara a funcionar.Porém em meu caso o comando não conseguiu matar o processo da placa de rede, e a placa de rede continuou funcionando, apesar de nenhuma mensagem de erro ser dada após o comando.</p>
+<h3>Comandos úteis</h3>
+<p>lsmod == lista os módulos do Kernel carregados pelo sistema</p>
+<p>lshw -C network == mostra as informações sobre a placa de red</p>
+<p>lspci -k == mostra todos os dispositivos pci que são reconhecidos na máquina, com módulos, drivers usados e etc.</p>
