@@ -24,5 +24,5 @@ por várias vezes se desconecta da rede wifi a qual está logada.</p>
 <h2>Solução do problema</h2>
 <p>Acessar a pasta /etc/modprobe.d</p>
 <p>Abrir o arquivo blacklist.conf</p>
-<p>No meu caso foi só incluir a linha <em>blacklist ath9k<em>. A parte final ath9k é o nome do módulo que localizei através do comando lspci -k.</p>
+<p>No meu caso foi só incluir a linha <em>blacklist ath9k</em>. A parte final ath9k é o nome do módulo que localizei através do comando lspci -k.</p>
 
